@@ -15,6 +15,20 @@
           $('img').retina('@2x');
       });
     </script>
+    <script type="text/javascript">
+    // Wait for Cordova to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Cordova is ready
+    //
+    function onDeviceReady() {
+        // external url
+        var ref = window.open(encodeURI('http://superiorthreads.com'), '_blank', 'location=yes');
+        // relative document
+        ref = window.open('next.html', '_self');
+    }
+    </script>
   </head>
   <body onLoad="initialPage();">
     <div id="top"><img src="img/top.jpg" height="100px" /></div>
