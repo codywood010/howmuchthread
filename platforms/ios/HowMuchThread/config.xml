@@ -13,6 +13,7 @@
     </feature>
     <access origin="http://127.0.0.1*" />
     <access origin="*.superiorthreads.*" />
+    <plugin name="InAppBrowser" value="CDVInAppBrowser" />
     <preference name="KeyboardDisplayRequiresUserAction" value="true" />
     <preference name="SuppressesIncrementalRendering" value="false" />
     <preference name="UIWebViewBounce" value="true" />
@@ -23,7 +24,7 @@
     <preference name="ShowSplashScreenSpinner" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />
     <preference name="AllowInlineMediaPlayback" value="false" />
-    <preference name="OpenAllWhitelistURLsInWebView" value="false" />
+    <preference name="OpenAllWhitelistURLsInWebView" value="true" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
