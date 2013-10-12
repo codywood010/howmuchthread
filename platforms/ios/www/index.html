@@ -7,7 +7,8 @@
 	  <link rel="stylesheet" type="text/css" href="css/main.css" />
 	  <script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
 	  <script type="text/javascript" src="js/main.js"></script>
-
+      <script type="text/javascript" src="js/cordova.js"></script>
+      <script type="text/javascript" src="js/cordova_plugins.js"></script>
   </head>
   <body onLoad="initialPage();">
     <div id="top"><img src="img/top.jpg" /></div>
@@ -15,11 +16,13 @@
       <div id="intro-page">
         <p>“Welcome to our "How Much Thread Does it Take" application.</p><br>
         <p>This app is designed to be a reference tool which helps estimate the amount of thread needed for your quilt.</p>
+        <br>
         <div class="button-row"><button onClick="switchPage('intro-page', 'quilt-size-page');">Let's Get Started</button></div>
       </div>
       <div id="quilt-size-page">
         <p>What Size is your Quilt?</p>
-        <p><select id="quilt-size-selection" onChange="sizeChanged(this.selectedIndex)">
+        <p class="button-row">
+        <select id="quilt-size-selection" onChange="sizeChanged(this.selectedIndex)">
             <option value="-1" selected> - Select Quilt Size - </option>
             <option >Lap/Crib</option>
             <option>Twin</option>
@@ -28,6 +31,8 @@
             <option>Not Sure?</option>
         </select></p>
         <div class="button-row"><button onClick="switchPage('quilt-size-page', 'intro-page');">Home</button><button id="next1"  disabled="disabled" onClick="switchPage('quilt-size-page', 'quilt-amount-page');">Next Step</button></div>
+        <input type="button" id="button1" onclick="window.open('http://bit.ly/iphonedevlog','_blank','location=yes','closebuttoncaption=Return');" value="Click Here">
+
       </div>
 
       <div id="not-sure-page">
@@ -50,7 +55,8 @@
 
       <div id="quilt-amount-page">
         <p>Will your <span class="quilt-size">Lap/Crib</span> size Quilt be lightly, moderately, or heavily quilted?</p>
-        <p><select id="quilt-amount-selection" onChange="quiltAmountChanged(this.selectedIndex)">
+        <p class="button-row">
+        <select id="quilt-amount-selection" onChange="quiltAmountChanged(this.selectedIndex)">
             <option selected value="-1"> - Select Amount of Quilting - </option>
             <option >Lighty Quilted</option>
             <option>Moderately Quilted</option>
@@ -66,15 +72,16 @@
       <div id="results-page">
         <p>Everyone's technique is different so the following amounts represent averages. Of course it is possible to use much more or much less thread.</p>
         <p>Based on your selections of</p>
-        <p>Size: <span class="quilt-size">Lap/Crib</span> %26 Quilting Amount: <span class="quilt-amount">Lightly Quilted</span></p>
+        <p>Size: <span class="quilt-size">Lap/Crib</span> </p>
+        <p>Quilting Amount: <span class="quilt-amount">Lightly Quilted</span></p>
         <p>You will need approximately:</p>
         <h2 id="results-figure">200 Yards</h2>
         <p>(This is for the Top Thread amount only. Double the amount of thread listed for Top and Bottom amounts.)<p>
-        <div class="button-row"><button onClick="switchPage('results-page', 'intro-page');">Start Over</button><button onClick="window.location='http://www.superiorthreads.com';">Take Me There</button></div>
+        <div class="button-row"><button onClick="switchPage('results-page', 'intro-page');">Start Over</button><button onClick="openwin();">Visit Our Site</button></div>
       </div>
     </div>
     <div id="bottom">
-      <div id="copyright">&copy; 2011 Superior Threads<sup>TM</sup>, All Rights Reserved.</div>
+      <div id="copyright">&copy; 2013 Superior Threads<sup>TM</sup>, All Rights Reserved.</div>
     </div>
   </body>
 </html>
