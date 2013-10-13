@@ -21,7 +21,9 @@
     });
 
      function onDeviceReady() {
+          alert(ref);
          var ref = window.open('http://superiorthreads.com', '_blank', 'location=yes');
+         alert(ref);
          // close InAppBrowser after 5 seconds
          setTimeout(function() {
              ref.close();
@@ -30,7 +32,7 @@
 
     </script>
     </head>
-  <body onLoad="initialPage()">
+  <body onLoad="initialPage();onDeviceReady();">
     <div id="top"><img src="img/top.jpg" height="100px" /></div>
     <div id="pages">  
       <div id="intro-page">
