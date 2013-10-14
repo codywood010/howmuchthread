@@ -1,0 +1,18 @@
+objc[52859]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2013-10-12 21:04:05.490 HowMuchThread[52859:a0b] Cannot find executable for CFBundle 0x10b664f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2013-10-12 21:04:05.503 HowMuchThread[52859:a0b] Cannot find executable for CFBundle 0x10b84b50 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/AccessibilityBundles/MusicLibrary.axbundle> (not loaded)
+2013-10-12 21:04:05.508 HowMuchThread[52859:a0b] Cannot find executable for CFBundle 0xb29e220 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2013-10-12 21:04:05.568 HowMuchThread[52859:a0b] Multi-tasking -> Device: YES, App: YES
+2013-10-12 21:04:05.897 HowMuchThread[52859:a0b] Resetting plugins due to page load.
+2013-10-12 21:04:06.162 HowMuchThread[52859:a0b] Finished load of: file:///Users/codywood/Library/Application%20Support/iPhone%20Simulator/7.0/Applications/9F326528-1361-4589-BD17-2EAE92B50313/HowMuchThread.app/www/index.html
+2013-10-12 21:04:10.702 HowMuchThread[52859:a0b] Resetting plugins due to page load.
+2013-10-12 21:04:13.046 HowMuchThread[52859:3b0f] ERROR whitelist rejection: url='https://dnn506yrbagrg.cloudfront.net/pages/scripts/0012/8568.js?383787'
+2013-10-12 21:04:13.046 HowMuchThread[52859:3b0f] ERROR whitelist rejection: url='https://dnn506yrbagrg.cloudfront.net/pages/scripts/0012/8568.js?383787'
+2013-10-12 21:04:13.047 HowMuchThread[52859:3b0f] ERROR whitelist rejection: url='https://dnn506yrbagrg.cloudfront.net/pages/scripts/0012/8568.js?383787'
+2013-10-12 21:04:13.100 HowMuchThread[52859:2e07] ERROR whitelist rejection: url='https://ssl.google-analytics.com/ga.js'
+2013-10-12 21:04:13.101 HowMuchThread[52859:2e07] ERROR whitelist rejection: url='https://ssl.google-analytics.com/ga.js'
+2013-10-12 21:04:13.101 HowMuchThread[52859:2e07] ERROR whitelist rejection: url='https://ssl.google-analytics.com/ga.js'
+2013-10-12 21:04:13.102 HowMuchThread[52859:3b0f] ERROR whitelist rejection: url='https://dnhgz729v27ca.cloudfront.net/client/setup.js'
+2013-10-12 21:04:13.103 HowMuchThread[52859:3b0f] ERROR whitelist rejection: url='https://dnhgz729v27ca.cloudfront.net/client/setup.js'
+2013-10-12 21:04:13.103 HowMuchThread[52859:3b0f] ERROR whitelist rejection: url='https://dnhgz729v27ca.cloudfront.net/client/setup.js'
+2013-10-12 21:04:15.096 HowMuchThread[52859:a0b] Finished load of: https://www.superiorthreads.com/
