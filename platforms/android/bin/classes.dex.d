@@ -1,0 +1,20 @@
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes.dex : \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/com/superiorthreads/HowMuchThread/BuildConfig.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/com/superiorthreads/HowMuchThread/HowMuchThread.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/com/superiorthreads/HowMuchThread/R$attr.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/com/superiorthreads/HowMuchThread/R$drawable.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/com/superiorthreads/HowMuchThread/R$string.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/com/superiorthreads/HowMuchThread/R$xml.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/com/superiorthreads/HowMuchThread/R.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$2.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$3$1.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$3$2.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$3$3.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$3$4.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$3$5.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$3.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$InAppBrowserClient.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppChromeClient.class \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/bin/dexedLibs/cordova-3.1.0-c1507d29211da565d68930606d1cdcd2.jar \
