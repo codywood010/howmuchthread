@@ -37,6 +37,7 @@
 /Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/assets/www/img/right_arrow.png \
 /Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/assets/www/img/top.jpg \
 /Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/assets/www/img/top@2x.jpg \
+/Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/assets/www/js/GALocalStorage.js \
 /Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/assets/www/js/index.js \
 /Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/assets/www/js/jquery-1.6.4.min.js \
 /Users/codywood/Apps/Superior/Apps/1-hmt/platforms/android/assets/www/js/jquery.retina.js \
