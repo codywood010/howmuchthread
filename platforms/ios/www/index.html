@@ -8,7 +8,13 @@
 	  <script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
 	  <script type="text/javascript" charset="utf-8" src="js/jquery.retina.js"></script>
 	  <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
-      <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+	  <script type="text/javascript" charset="utf-8" src="js/GALocalStorage.js"></script>
+	  <script>
+      ga_storage._setAccount('UA-45059500-1');
+      ga_storage._trackPageview('/index.html');
+      ga_storage._trackEvent('intro-page', 'quilt-size-page', 'not-sure-page', 'quilt-amount-page');
+    </script>
     <script type="text/javascript">
       $(document).ready(function() {
           $('img').retina('@2x');
